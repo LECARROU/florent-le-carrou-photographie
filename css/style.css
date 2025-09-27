@@ -2570,6 +2570,16 @@ ul {
     font-size: 0.6rem;           /* réduit le H5 */
   }
 }
+
+.about_me_img {
+    width: 120px;         /* Taille du portrait */
+    height: 120px;
+    border-radius: 50%;   /* Cercle parfait */
+    object-fit: cover;    /* Ajuste l'image pour ne pas la déformer */
+    margin: 20px 0;       /* Espacement au-dessus et en dessous */
+    border: 3px solid #fff; /* Optionnel : bordure élégante */
+}
+
 /* line 52, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
 .banner_part .banner_text h1 span {
   color: #86957F;
